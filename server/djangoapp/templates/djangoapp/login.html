@@ -1,0 +1,33 @@
+{% extends "djangoapp/base.html" %}
+
+{% block content %}
+	
+	    <div class="container d-flex align-items-center justify-content-center">
+	    <div class="card border-primary mt-5" >
+		    <div class="card-header text-dark">
+			    Login
+		    </div>
+		    <div class="card-body">
+			    <div class="card-title text-primary">
+
+			    </div>
+			    <div class="card-text text-dark">
+
+<form class="form-group" action="" method="POST">
+		    {% csrf_token  %}
+		    {{ form}}
+		    <input type="submit" class="form-control btn btn-primary mt-3" value="Login">
+	    </form>
+			    </div>
+		    </div>
+	    </div>
+	    </div>
+<script>
+//changing classname 'allert-error' to 'allert-warning' for sake of bootstrap
+let erEl = document.getElementsByClassName('alert-error');
+[...erEl].forEach((el)=>{
+		el.classList.add('alert-danger')
+	});
+</script>
+	    
+{% endblock content %}

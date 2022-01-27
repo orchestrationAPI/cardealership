@@ -1,0 +1,8 @@
+*.sh
+*.swp
+README.md
+.github/
+.git/
+.gitignore
+.env
+manifest.yml

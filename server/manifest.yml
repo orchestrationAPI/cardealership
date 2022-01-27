@@ -1,0 +1,11 @@
+  applications:
+  - name: cardealership
+    routes:
+      - route: cardealership.apic.us-south.mybluemix.net
+    memory: 128M
+    buildpacks: python_buildpack
+  - name: cardealership-nginx
+    routes:
+      - route: cardealership.apic.us-south.mybluemix.net/static
+    memory: 128M
+    buildpack: staticfile_buildpack

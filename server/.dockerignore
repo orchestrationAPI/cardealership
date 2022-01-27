@@ -1,0 +1,11 @@
+dev_static/
+static/
+.cfignore
+manifest.yml
+.gitignore
+*.swp
+README.md
+.github/
+.git/
+.gitignore
+.env

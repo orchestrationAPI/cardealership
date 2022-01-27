@@ -1,0 +1,11 @@
+.cfignore
+manifest.yml
+.gitignore
+*.sh
+*.swp
+README.md
+.github/
+.git/
+.gitignore
+.env
+
