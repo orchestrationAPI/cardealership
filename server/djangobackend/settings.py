@@ -28,7 +28,7 @@ DEBUG = False
 APPEND_SLASH = True
 
 ALLOWED_HOSTS = ["localhost",
-        "fastbuycar01.apic.eu-gb.mybluemix.net"]
+        "cardealership.us-south.cf.appdomain.cloud"]
 
 
 # Application definition
