@@ -1,5 +1,5 @@
   applications:
-  - name: cardealership
+  - name: cardealership-space
     routes:
       - route: cardealership.us-south.cf.appdomain.cloud
     memory: 128M
